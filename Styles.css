@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Albert+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  background-color: #262e2e;
+}
+
+h1,
+h2,
+button {
+  font-family: MontSerrat;
+  color: aliceblue;
+}
+
+.container {
+  text-align: center;
+  margin-top: 375px;
+  margin-left: 889;
+}
+
+button.start {
+  background: #348e91;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 25px;
+  border: 2px solid;
+}
+
+button.stop {
+  background: #880808;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 25px;
+  border: 2px solid;
+}
+
+button.start:hover {
+  transition: 2s;
+  background: #1c5052;
+}
+
+button.stop:hover {
+  transition: 2s;
+  background: #e40707;
+}
+
+.alerta {
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: MontSerrat;
+  font-weight: 600;
+}
+
+.parada {
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: MontSerrat;
+  font-weight: 600;
+}
+
+.select {
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 100px;
+  font-family: Albert Sans;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.link {
+  color: red;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronômetro em JavaScript</title>
+    <link href="Styles.css" type="text/css" rel="StyleSheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <audio id="sound" src="Fantasy.mp3"></audio>
+    <!-- Audio gravado, que será emitido quando o cronômetro terminar  -->
+    <h1>
+      Cronômetro Com JavaScript <br />
+      Feito Por Daniel Assis.
+    </h1>
+    <div class="container">
+      <h2>Minutos:</h2>
+      <select id="minutos" name="minutos" class="select"></select>
+      <!-- Seleção de tempo o qual o usuário tem o desejo de cronometrar -->
+
+      <h2>Segundos:</h2>
+      <select id="segundos" name="segundos" class="select">
+        selecione aqui
+      </select>
+      <!-- Seleção de tempo o qual o usuário tem o desejo de cronometrar -->
+
+      <br />
+      <!-- quebras de linha para fins estéticos -->
+      <br />
+      <button id="start" class="start">Começar/Recomeçar<area shape="" coords="" href="" alt=""></button>
+      <button id="stop" class="stop">Parar</button>
+      <div id="display">
+        <h1></h1>
+        <!-- Dentro deste display será posicionado o cronômetro-->
+        <p id="alerta" class="alerta"></p>
+        <p id="parada" class="parada"></p>
+      </div>
+      <!-- DISPLAY -->
+    </div>
+    <!-- CONTAINER -->
+
+    <div class="link">
+      <a href="https://github.com/DanielProgrammer64"
+        ><i class="bx bxl-github"></i
+      ></a>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
