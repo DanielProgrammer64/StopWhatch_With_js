@@ -9,9 +9,9 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) </li>
 
-<li> feito em um total de 3 dias, funciona de modo simples, você configura o tempo que pretende cronometrar e aperta o botão de iniciar</li>
-<li> quando o tempo acaba você ouve um som de alerme simples, e a mensagem de alarme aparece na tela, dizendo que acabou </li>
-<li> Também conta com um botão de parar que deixa o cronômetro congelado </li>
+<li> feito em um total de 3 dias, funciona de modo simples, você configura o tempo que pretende cronometrar e aperta o botão de iniciar. </li>
+<li> quando o tempo acaba você ouve um som de alarme simples, e a mensagem de alarme aparece na tela, dizendo que acabou. </li>
+<li> Também conta com um botão de parar que deixa o cronômetro congelado. </li>
 
 </ul>
 
